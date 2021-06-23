@@ -37,4 +37,10 @@ public class Student {
 		this.subjects[this.subjects.length] = s;
 	}
 
+	public Student(int id, String name, int semester) {
+		this.id = id;
+		this.name = name;
+		this.semester = semester;
+
+	}
 }

@@ -45,4 +45,11 @@ public class Subject {
 		}
 		return check;
 	}
+
+	public Subject(int semester, String name, int credits) {
+		this.semester = semester;
+		this.subjectName = name;
+		this.credits = credits;
+
+	}
 }
